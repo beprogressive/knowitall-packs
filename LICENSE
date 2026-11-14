@@ -1,0 +1,16 @@
+KnowItAll language packs
+
+The language packs in this repository's releases are licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+They are adapted from the following sources; the changes made are listed in README.md and in the
+release notes of each pack.
+
+- FrequencyWords (OpenSubtitles 2018, English 50k) (https://github.com/hermitdave/FrequencyWords), Hermit Dave; word counts from the OpenSubtitles 2018 corpus of OPUS (P. Lison and J. Tiedemann, opensubtitles.org). License: CC BY-SA 4.0.
+- wink-lemmatizer 3.0.4 and wink-lexicon 2.2.0 (https://github.com/winkjs/wink-lemmatizer), GRAYPE Systems Private Limited; wink-lexicon includes data from fnTBL (Johns Hopkins University, Radu Florian and Grace Ngai). License: MIT.
+- WordNet 3.0 (https://wordnet.princeton.edu/), Princeton University. License: WordNet 3.0 License.
+- SCOWL en_US Hunspell dictionary 2020.12.07 (dictionary-en 4.0.0) (http://wordlist.aspell.net/), Kevin Atkinson and SCOWL contributors; packaged by Titus Wormer. License: MIT AND BSD (SCOWL license).
+
+The notices of all sources are reproduced in THIRD_PARTY_NOTICES.txt; every pack also carries
+its own sources' notices in its metadata.
