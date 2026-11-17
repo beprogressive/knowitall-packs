@@ -11,6 +11,8 @@ release notes of each pack.
 - wink-lemmatizer 3.0.4 and wink-lexicon 2.2.0 (https://github.com/winkjs/wink-lemmatizer), GRAYPE Systems Private Limited; wink-lexicon includes data from fnTBL (Johns Hopkins University, Radu Florian and Grace Ngai). License: MIT.
 - WordNet 3.0 (https://wordnet.princeton.edu/), Princeton University. License: WordNet 3.0 License.
 - SCOWL en_US Hunspell dictionary 2020.12.07 (dictionary-en 4.0.0) (http://wordlist.aspell.net/), Kevin Atkinson and SCOWL contributors; packaged by Titus Wormer. License: MIT AND BSD (SCOWL license).
+- FrequencyWords (OpenSubtitles 2018, Polish 50k) (https://github.com/hermitdave/FrequencyWords), Hermit Dave; word counts from the OpenSubtitles 2018 corpus of OPUS (P. Lison and J. Tiedemann, opensubtitles.org). License: CC BY-SA 4.0.
+- SGJP, Grammatical Dictionary of Polish (Morfeusz 2 dump of 2026-01-04) (https://sgjp.pl/), Marcin Woliński, Zbigniew Bronk, Włodzimierz Gruszczyński, Witold Kieraś, Zygmunt Saloni, Danuta Skowrońska, Robert Wołosz. License: BSD-2-Clause.
 
 The notices of all sources are reproduced in THIRD_PARTY_NOTICES.txt; every pack also carries
 its own sources' notices in its metadata.

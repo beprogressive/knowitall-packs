@@ -434,3 +434,39 @@ and Australian word list.  It is under the following copyright:
 
 Build Date: Mon Dec  7 20:19:27 EST 2020
 Wordlist Command: mk-list --accents=strip en_US 60
+
+--------------------
+
+FrequencyWords (OpenSubtitles 2018, Polish 50k)
+
+The Polish frequency list is adapted from FrequencyWords by Hermit Dave (https://github.com/hermitdave/FrequencyWords), whose content is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/, legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode). The word counts come from the OpenSubtitles 2018 corpus of OPUS (P. Lison and J. Tiedemann, 2016, "OpenSubtitles2016: Extracting Large Parallel Corpora from Movie and TV Subtitles"; http://www.opensubtitles.org/). Changes: trimmed to the 50,000 most frequent words, then to single words without digits or hyphens; lowercased in Polish and duplicates merged; words that SGJP does not list in lowercase, or only as rare readings of a proper name, removed (likely proper names and foreign words); ranks renumbered. This language pack, as an adaptation, is licensed under the same license.
+
+--------------------
+
+SGJP, Grammatical Dictionary of Polish (Morfeusz 2 dump of 2026-01-04)
+
+Copyright © 2007–2026 Marcin Woliński, Zbigniew Bronk, Włodzimierz Gruszczyński, Witold Kieraś, Zygmunt Saloni, Danuta Skowrońska, Robert Wołosz
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY COPYRIGHT HOLDERS “AS IS” AND ANY EXPRESS
+OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL COPYRIGHT HOLDERS OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+THE POSSIBILITY OF SUCH DAMAGE.

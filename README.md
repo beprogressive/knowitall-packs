@@ -10,6 +10,7 @@ edit them by hand.
 | Language | Version | Release | File | Size | SHA-256 |
 | --- | --- | --- | --- | --- | --- |
 | English (`en`) | 1 | `en-1` | [`en-1.kiapack`](https://github.com/beprogressive/knowitall-packs/releases/download/en-1/en-1.kiapack) | 506 KB | `f2a2ed26386e44e217350b1915b6027f028062ba3fe5f7088ee8a8cd25777906` |
+| Polish (`pl`) | 1 | `pl-1` | [`pl-1.kiapack`](https://github.com/beprogressive/knowitall-packs/releases/download/pl-1/pl-1.kiapack) | 1,319 KB | `f216b3da027c430bf88a67a38475726d8006d8ba66e239c668b56594eb8fc0ce` |
 
 Each pack version is one release, tagged `<language>-<version>`, with the pack as its only
 asset and its attribution as release notes. A published release is never changed; new data
@@ -45,6 +46,19 @@ License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
   - Authors: Kevin Atkinson and SCOWL contributors; packaged by Titus Wormer
   - License: MIT AND BSD (SCOWL license) (https://github.com/wooorm/dictionaries/blob/main/dictionaries/en/license)
   - Changes: Its lowercase stems select the base words whose inflected forms are included and help recognize common words; words that exist only capitalized (likely proper names) were removed from the frequency list.
+
+### Polish, version 1
+
+License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+
+- **FrequencyWords (OpenSubtitles 2018, Polish 50k)** — https://github.com/hermitdave/FrequencyWords
+  - Authors: Hermit Dave; word counts from the OpenSubtitles 2018 corpus of OPUS (P. Lison and J. Tiedemann, opensubtitles.org)
+  - License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+  - Changes: Trimmed to the 50,000 most frequent words, then to single words without digits or hyphens; lowercased in Polish and duplicates merged; words that SGJP does not list in lowercase, or only as rare readings of a proper name, removed (likely proper names and foreign words). The remaining words form the frequency list (ranks renumbered).
+- **SGJP, Grammatical Dictionary of Polish (Morfeusz 2 dump of 2026-01-04)** — https://sgjp.pl/
+  - Authors: Marcin Woliński, Zbigniew Bronk, Włodzimierz Gruszczyński, Witold Kieraś, Zygmunt Saloni, Danuta Skowrońska, Robert Wołosz
+  - License: BSD-2-Clause (https://opensource.org/license/bsd-2-clause)
+  - Changes: Only the common vocabulary: lowercase entries without proper names, acronyms and abbreviations; homonym markers removed. Holds every form of each lemma the frequency list reaches; a form of several lemmas keeps the most frequent one, with a few frequent forms set by hand. Added the words that Morfeusz analyzes as segments: the reflexive pronoun (siebie, sobie, sobą), się, and conditional particles with person endings (żebyś → żeby). Also decides which words of the frequency list are common words.
 
 ## License
 
