@@ -22,6 +22,7 @@ gets a new version.
 | Languages | Version | Release | File | Size | SHA-256 |
 | --- | --- | --- | --- | --- | --- |
 | English → Russian (`en-ru`) | 1 | `en-ru-1` | [`en-ru-1.kiadict`](https://github.com/beprogressive/knowitall-packs/releases/download/en-ru-1/en-ru-1.kiadict) | 527 KB | `cc3ded860eaa250aac76e7e42fbb2b211ff7a16e5a8f1865aee57b5282d2c9de` |
+| Polish → Russian (`pl-ru`) | 1 | `pl-ru-1` | [`pl-ru-1.kiadict`](https://github.com/beprogressive/knowitall-packs/releases/download/pl-ru-1/pl-ru-1.kiadict) | 103 KB | `656c938a80b4ee40ab9d99f6e04bf8cfd781d132a1f22a7cac0586a46c939402` |
 
 Each dictionary version is one release, tagged `<source>-<target>-<version>`, published the
 same way as the packs.
@@ -83,6 +84,15 @@ License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
   - Authors: English Wiktionary contributors; extracted with Wiktextract by Tatu Ylonen and published by kaikki.org
   - License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
   - Changes: Only the translations into Russian of the lemmas of the English language pack, from the translation tables of their own entries, grouped by part of speech and by table (one meaning each) in page order; glosses, transliterations, grammatical tags and the names of letters left out, cells split into their translations, stress marks, markup, affixes and parsing artifacts removed, repeated translations and meanings merged. A word without translations of its own takes those of a current spelling variant (colour → color), never of an abbreviation or an obsolete form. A word with neither takes those of its capitalized headword (english → English; of a single letter only the pronoun, i → I); a word with its own but no adjective takes only the adjective of its capitalized headword (afghan → Afghan). Names, abbreviations, initialisms, acronyms and contractions of a capitalized headword are never taken.
+
+### Polish → Russian dictionary, version 1
+
+License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+
+- **Polish Wiktionary (kaikki.org extract of 2026-11-02)** — https://kaikki.org/plwiktionary/
+  - Authors: Polish Wiktionary contributors; extracted with Wiktextract by Tatu Ylonen and published by kaikki.org
+  - License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+  - Changes: Only the translations into Russian of the lemmas of the Polish language pack and of its verbal nouns, from the translation sections of their own Polish entries, grouped by part of speech and by sense in page order; glosses, transliterations and grammatical tags left out, stress marks, markup, affixes and parsing artifacts removed, repeated translations and meanings merged, translations under unread ranges of meaning numbers left out. Phrases that the extraction split into separate words are joined again when they are known expressions, and otherwise their pieces are removed. A synonym page without translations of its own (its only sense "zob. X" or the single word X) takes those of X of the same part of speech (jeśli → jeżeli). A verbal noun with an entry of its own keeps it apart from its verb (życie, not żyć).
 
 ## License
 
