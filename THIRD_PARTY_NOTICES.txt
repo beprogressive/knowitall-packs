@@ -470,3 +470,9 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
 THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------
+
+English Wiktionary (kaikki.org extract of 2026-10-30)
+
+The translations are taken from the English Wiktionary (https://www.wiktionary.org/), written by its contributors (see the history of each page), available under the Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/, legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode) and the GNU Free Documentation License. They were extracted with Wiktextract by Tatu Ylonen (Tatu Ylonen, "Wiktextract: Wiktionary as Machine-Readable Structured Data", Proceedings of LREC 2022) and published by kaikki.org (https://kaikki.org/dictionary/English/), extract of 2026-10-30. Changes: Only the translations into Russian of the lemmas of the English language pack, from the translation tables of their own entries, grouped by part of speech and by table (one meaning each) in page order; glosses, transliterations, grammatical tags and the names of letters left out, cells split into their translations, stress marks, markup, affixes and parsing artifacts removed, repeated translations and meanings merged. A word without translations of its own takes those of a current spelling variant (colour → color), never of an abbreviation or an obsolete form. A word with neither takes those of its capitalized headword (english → English; of a single letter only the pronoun, i → I); a word with its own but no adjective takes only the adjective of its capitalized headword (afghan → Afghan). Names, abbreviations, initialisms, acronyms and contractions of a capitalized headword are never taken. This dictionary, as an adaptation, is licensed under the same license.
