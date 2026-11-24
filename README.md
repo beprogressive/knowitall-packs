@@ -12,6 +12,7 @@ edit them by hand.
 | --- | --- | --- | --- | --- | --- |
 | English (`en`) | 1 | `en-1` | [`en-1.kiapack`](https://github.com/beprogressive/knowitall-packs/releases/download/en-1/en-1.kiapack) | 506 KB | `f2a2ed26386e44e217350b1915b6027f028062ba3fe5f7088ee8a8cd25777906` |
 | Polish (`pl`) | 1 | `pl-1` | [`pl-1.kiapack`](https://github.com/beprogressive/knowitall-packs/releases/download/pl-1/pl-1.kiapack) | 1,319 KB | `f216b3da027c430bf88a67a38475726d8006d8ba66e239c668b56594eb8fc0ce` |
+| German (`de`) | 1 | `de-1` | [`de-1.kiapack`](https://github.com/beprogressive/knowitall-packs/releases/download/de-1/de-1.kiapack) | 1,384 KB | `c0c600cfc41e76dcee6405bbd99c7455616b3d3f62faff9f025e8df574ff7c04` |
 
 Each pack version is one release, tagged `<language>-<version>`, with the pack as its only
 asset and its attribution as release notes. A published release is never changed; new data
@@ -23,6 +24,7 @@ gets a new version.
 | --- | --- | --- | --- | --- | --- |
 | English → Russian (`en-ru`) | 1 | `en-ru-1` | [`en-ru-1.kiadict`](https://github.com/beprogressive/knowitall-packs/releases/download/en-ru-1/en-ru-1.kiadict) | 527 KB | `cc3ded860eaa250aac76e7e42fbb2b211ff7a16e5a8f1865aee57b5282d2c9de` |
 | Polish → Russian (`pl-ru`) | 1 | `pl-ru-1` | [`pl-ru-1.kiadict`](https://github.com/beprogressive/knowitall-packs/releases/download/pl-ru-1/pl-ru-1.kiadict) | 103 KB | `656c938a80b4ee40ab9d99f6e04bf8cfd781d132a1f22a7cac0586a46c939402` |
+| German → Russian (`de-ru`) | 1 | `de-ru-1` | [`de-ru-1.kiadict`](https://github.com/beprogressive/knowitall-packs/releases/download/de-ru-1/de-ru-1.kiadict) | 253 KB | `d6e5370824e435b88f0a110127a91a707b08589180fc8aa891780b034995660f` |
 
 Each dictionary version is one release, tagged `<source>-<target>-<version>`, published the
 same way as the packs.
@@ -76,6 +78,19 @@ License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
   - License: BSD-2-Clause (https://opensource.org/license/bsd-2-clause)
   - Changes: Only the common vocabulary: lowercase entries without proper names, acronyms and abbreviations; homonym markers removed. Holds every form of each lemma the frequency list reaches; a form of several lemmas keeps the most frequent one, with a few frequent forms set by hand. Added the words that Morfeusz analyzes as segments: the reflexive pronoun (siebie, sobie, sobą), się, and conditional particles with person endings (żebyś → żeby). Also decides which words of the frequency list are common words.
 
+### German, version 1
+
+License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+
+- **FrequencyWords (OpenSubtitles 2018, German 50k)** — https://github.com/hermitdave/FrequencyWords
+  - Authors: Hermit Dave; word counts from the OpenSubtitles 2018 corpus of OPUS (P. Lison and J. Tiedemann, opensubtitles.org)
+  - License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+  - Changes: Trimmed to the 50,000 most frequent words, then to single words without digits or hyphens; lowercased and duplicates merged; words that the German Wiktionary does not list as common words, or that it mostly shows as names, removed (likely proper names, acronyms and foreign words). The remaining words form the frequency list (ranks renumbered).
+- **German Wiktionary (kaikki.org extract of 2026-11-01)** — https://kaikki.org/dewiktionary/
+  - Authors: German Wiktionary contributors; extracted with Wiktextract by Tatu Ylonen and published by kaikki.org
+  - License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+  - Changes: Only the common German vocabulary: entries without proper names, abbreviations and phrases. Holds the forms of every lemma that has a word of the frequency list or at least 6 words of the example sentences, lowercased, from the inflection tables and the entries of inflected forms; participles are forms of their verb and nominalized adjectives of their adjective unless they are words of their own. A form of several lemmas keeps one, chosen by frequency and by how the example sentences capitalize the form, with a few frequent forms set by hand. Swiss and pre-reform spellings with ss and ß added. Also decides which words of the frequency list are common words.
+
 ### English → Russian dictionary, version 1
 
 License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
@@ -93,6 +108,15 @@ License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
   - Authors: Polish Wiktionary contributors; extracted with Wiktextract by Tatu Ylonen and published by kaikki.org
   - License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
   - Changes: Only the translations into Russian of the lemmas of the Polish language pack and of its verbal nouns, from the translation sections of their own Polish entries, grouped by part of speech and by sense in page order; glosses, transliterations and grammatical tags left out, stress marks, markup, affixes and parsing artifacts removed, repeated translations and meanings merged, translations under unread ranges of meaning numbers left out. Phrases that the extraction split into separate words are joined again when they are known expressions, and otherwise their pieces are removed. A synonym page without translations of its own (its only sense "zob. X" or the single word X) takes those of X of the same part of speech (jeśli → jeżeli). A verbal noun with an entry of its own keeps it apart from its verb (życie, not żyć).
+
+### German → Russian dictionary, version 1
+
+License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+
+- **German Wiktionary (kaikki.org extract of 2026-11-01)** — https://kaikki.org/dewiktionary/
+  - Authors: German Wiktionary contributors; extracted with Wiktextract by Tatu Ylonen and published by kaikki.org
+  - License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+  - Changes: Only the translations into Russian of the lemmas of the German language pack, from the translation tables of their own German entries without proper names, abbreviations and phrases, lowercased (words that differ only in their capital letters share an entry), grouped by part of speech and by sense in the order of the tables; glosses, notes, transliterations and grammatical tags left out, stress marks, markup, affixes and parsing artifacts removed, repeated translations and meanings merged. Adjectives, nominalized adjectives and degrees that the pack files under another word are added to its entry (Deutscher → deutsch, mehr → viel). A word without translations of its own takes those of another spelling or form that its entry lists (Jacht → Yacht, gerne → gern).
 
 ## License
 
