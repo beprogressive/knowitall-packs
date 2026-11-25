@@ -4,7 +4,7 @@
 <body>
 <main>
 <h1>KnowItAll privacy policy</h1>
-<p class="date">Last updated: 24 November 2026</p>
+<p class="date">Last updated: 25 November 2026</p>
 <p>KnowItAll is a Chrome extension. It has no server of its own. Its developer receives none of your data.</p>
 <h2>What the extension stores</h2>
 <p>Your known words, the times you marked them, your language profiles and your settings. They are kept in your browser. The extension does not store the pages you visit, their addresses or your browsing history.</p>
@@ -13,13 +13,13 @@
 <h2>Chrome sync</h2>
 <p>If Chrome sync is on, Chrome copies the stored data through your Google account to your other devices.</p>
 <h2>Google Drive (optional)</h2>
-<p>Only if you connect Google Drive in the options of the extension, and only with your consent, it uses the Google Drive API with the <code>drive.file</code> permission, which covers only files the extension created.</p>
+<p>Only if you connect Google Drive in the options of the extension, and only with your consent, it uses the Google Drive API with the <code>drive.appdata</code> permission, which covers only the extension’s own hidden application data folder.</p>
 <ul>
-<li><strong>Data accessed:</strong> the file “KnowItAll dictionary.json” that the extension creates (and duplicates of it, should two devices create one at the same time), with its name, identifier, creation time and checksum. No other file in your Drive.</li>
+<li><strong>Data accessed:</strong> the file that the extension creates in its hidden application data folder (and duplicates of it, should two devices create one at the same time), with its name, identifier, creation time and checksum. No other file in your Drive.</li>
 <li><strong>Use:</strong> only to keep your known words, language profiles and settings the same on your devices.</li>
 <li><strong>Sharing:</strong> none. The data travels directly between your browser and Google over HTTPS. It is not sent to the developer or to anyone else, not sold, not used for advertising and not used to train AI models.</li>
-<li><strong>Storage and protection:</strong> the file is in your own Drive, under your control. Access tokens are managed by Chrome; the extension does not store them.</li>
-<li><strong>Retention and deletion:</strong> the file stays until you delete it. Disconnecting in the options stops sync on that device and leaves the file. Delete the file in Google Drive at any time, and withdraw the permission in your <a href="https://myaccount.google.com/connections">Google account</a>. Removing the extension deletes its data from that browser.</li>
+<li><strong>Storage and protection:</strong> the file is in your own Drive, in a hidden folder that only the extension can read. Access tokens are managed by Chrome; the extension does not store them.</li>
+<li><strong>Retention and deletion:</strong> the file stays until you delete it. Disconnecting in the options stops sync on that device and leaves the file. To delete it, disconnect every device (a connected one writes the file again), then use Google Drive (Settings, Manage apps, KnowItAll, Delete hidden app data), and withdraw the permission in your <a href="https://myaccount.google.com/connections">Google account</a>. Removing the extension deletes its data from that browser.</li>
 </ul>
 <p>KnowItAll's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
 <h2>Language packs</h2>
