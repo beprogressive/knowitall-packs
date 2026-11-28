@@ -13,6 +13,7 @@ edit them by hand.
 | English (`en`) | 1 | `en-1` | [`en-1.kiapack`](https://github.com/beprogressive/knowitall-packs/releases/download/en-1/en-1.kiapack) | 506 KB | `f2a2ed26386e44e217350b1915b6027f028062ba3fe5f7088ee8a8cd25777906` |
 | Polish (`pl`) | 1 | `pl-1` | [`pl-1.kiapack`](https://github.com/beprogressive/knowitall-packs/releases/download/pl-1/pl-1.kiapack) | 1,319 KB | `f216b3da027c430bf88a67a38475726d8006d8ba66e239c668b56594eb8fc0ce` |
 | German (`de`) | 1 | `de-1` | [`de-1.kiapack`](https://github.com/beprogressive/knowitall-packs/releases/download/de-1/de-1.kiapack) | 1,384 KB | `c0c600cfc41e76dcee6405bbd99c7455616b3d3f62faff9f025e8df574ff7c04` |
+| Spanish (`es`) | 1 | `es-1` | [`es-1.kiapack`](https://github.com/beprogressive/knowitall-packs/releases/download/es-1/es-1.kiapack) | 929 KB | `170fefe569f4de2f48fbfd6919d4c6bbbc92fbcb63c6716c396926a97198d132` |
 
 Each pack version is one release, tagged `<language>-<version>`, with the pack as its only
 asset and its attribution as release notes. A published release is never changed; new data
@@ -90,6 +91,19 @@ License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
   - Authors: German Wiktionary contributors; extracted with Wiktextract by Tatu Ylonen and published by kaikki.org
   - License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
   - Changes: Only the common German vocabulary: entries without proper names, abbreviations and phrases. Holds the forms of every lemma that has a word of the frequency list or at least 6 words of the example sentences, lowercased, from the inflection tables and the entries of inflected forms; participles are forms of their verb and nominalized adjectives of their adjective unless they are words of their own. A form of several lemmas keeps one, chosen by frequency and by how the example sentences capitalize the form, with a few frequent forms set by hand. Swiss and pre-reform spellings with ss and ß added. Also decides which words of the frequency list are common words.
+
+### Spanish, version 1
+
+License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+
+- **FrequencyWords (OpenSubtitles 2018, Spanish 50k)** — https://github.com/hermitdave/FrequencyWords
+  - Authors: Hermit Dave; word counts from the OpenSubtitles 2018 corpus of OPUS (P. Lison and J. Tiedemann, opensubtitles.org)
+  - License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+  - Changes: Trimmed to the 50,000 most frequent words, then to single words without digits or hyphens; lowercased and duplicates merged; words that the English Wiktionary does not list as common Spanish words, or that its examples mostly show as names, removed (likely proper names, acronyms and foreign words), and a few more names and foreign words by hand. The remaining words form the frequency list (ranks renumbered).
+- **English Wiktionary (kaikki.org extract of 2026-10-30)** — https://kaikki.org/dictionary/Spanish/
+  - Authors: English Wiktionary contributors; extracted with Wiktextract by Tatu Ylonen and published by kaikki.org
+  - License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+  - Changes: Only the common Spanish vocabulary: entries without proper names, abbreviations and phrases. Holds the forms of every lemma that has a word of the frequency list, lowercased, from the inflection tables, the entries of inflected forms and those of other spellings; all forms of a participle are forms of its verb unless they are words of their own, and regular feminine nouns forms of their masculine unless they are far more frequent. A form of several lemmas keeps one, chosen by frequency and by the words before the form in the example sentences, with some frequent forms set by hand. Also decides which words of the frequency list are common words.
 
 ### English → Russian dictionary, version 1
 
